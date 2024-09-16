@@ -1,0 +1,106 @@
+*{
+    //border: 1px solid red;
+}
+.Project{
+    background-color: #130E1A;
+    background-image: url('../../../Images/stars.png');
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 729px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   padding-bottom: 100px;
+   font-family: serif;
+
+    div {
+        width: 100%;
+
+        .one {
+            color: white;
+            font-size: 2.6rem;
+            margin: 40px 0 0 0;
+            padding: 90px 0 0 0;
+            text-align: center;
+
+            span {
+                color: #CE5FF8;
+            }
+        }
+        p{
+            color: white;
+            text-align: center;
+            letter-spacing: 1px;
+            padding-top: 5px;
+        }
+    }
+
+    .boxex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 20px 0 0 0;
+        padding: 10px 0 0 70px;
+        width: 100%;
+
+        .firstbox {
+                width: 440px;
+                height: 620px;
+                margin: 0 0 0 30px;
+            .secondbox {
+                color: rgb(230, 216, 216);
+                width: 420px;
+                height: 620px;
+                margin:8px;
+                padding-top: 18px;
+                text-align: center;
+                font-size: 3.8rem;
+                border: 1px solid #cf5ff8b2;
+                border-radius: 5%;
+                img{
+                    width: 330px;
+                    height: 210px;
+                }
+                .p1{
+                    font-size: 1.8rem;
+                    letter-spacing: normal;
+
+                }
+                #desc{
+                    font-size: 1.1rem;
+                    font-weight: 100;
+                    color: rgba(255, 255, 255, 0.685);
+                    padding: 25px 15px  0 15px;
+                    text-align:justify;
+
+                }
+                button{
+                    border-style: none;
+                    width: 120px;
+                    height: 40px;
+                    border-radius: 7%;
+                    font-size: 1rem;
+                    font-weight: 550;
+                    background-color: #59327B;
+                    color: white;
+                    margin-left: 20px;
+                    &:hover{
+                        background-color: #441c66;
+                        cursor: pointer;
+                        transition: 0.3s all;
+                    }
+                }
+
+                &:hover {
+                    margin: 0 40px 40px 0;
+                    padding: 20px 3px 3px 3px;
+                    box-shadow: 4px 4px 3px #59327B;
+                    transition: 0.4s all;
+                }
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,151 @@
+* {
+    //border: 1px solid red;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.about {
+    background-color: #130E1A;
+    background-image: url('../../../Images/stars.png');
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 729px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    >div {
+        margin: 150px 0 0 130px;
+        width: 50%;
+
+        #one {
+            color: white;
+            font-size: 2.2rem;
+            margin-top: 30px;
+            text-align: center;
+
+            span {
+                color: #CE5FF8;
+            }
+        }
+
+        #two {
+            color: white;
+            font-size: 1.5rem;
+            margin: 30px 0 30px 0;
+
+            span {
+                color: #CE5FF8;
+            }
+        }
+
+        p {
+            color: white;
+            font-size: 1.5rem;
+            margin-top: 30px;
+
+            line-height: 30px;
+
+            span {
+                color: #CE5FF8;
+            }
+
+            .arrow {
+                margin: 10px 0 0 50px;
+            }
+
+        }
+
+        #three {
+            color: #9B7EAC;
+            margin: 20px 0 0 120px;
+            letter-spacing: -1px;
+            opacity: 0.5;
+
+            p {
+                color: #9B7EAC;
+                margin: 5px 0 0 250px;
+            }
+        }
+
+    }
+
+    img {
+        width: 500px;
+        height: 350px;
+        margin: 240px 0 0 40px;
+    }
+}
+
+.about1 {
+    background-color: #130E1A;
+    background-image: url('../../../Images/stars.png');
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 729px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+        width: 100%;
+
+        .one {
+            color: white;
+            font-size: 2.6rem;
+            margin: 40px 0 0 0;
+            padding: 90px 0 0 0;
+            text-align: center;
+
+            span {
+                color: #CE5FF8;
+            }
+        }
+    }
+
+    .boxex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: -120px 0 0 0;
+        padding: 10px 0 0 70px;
+        width: 100%;
+
+        .firstbox {
+                width: 240px;
+                height: 170px;
+                margin: 0 0 0 100px;
+            .secondbox {
+                color: white;
+                width: 220px;
+                height: 150px;
+                margin:8px;
+                text-align: center;
+                align-content: center;
+                font-size: 3.8rem;
+                border: 1px solid #cf5ff8b2;
+                border-radius: 5%;
+
+                &:hover {
+                    margin: 0 40px 40px 0;
+                    padding:8px;
+                    font-size: 4rem;
+                    box-shadow: 1px 1px 2px #CE5FF8;
+                    transition: 0.4s all;
+                }
+            }
+
+        }
+    }
+
+}

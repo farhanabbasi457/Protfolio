@@ -1,0 +1,91 @@
+*{
+    //border: 1px solid red; 
+}
+
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+html::-webkit-scrollbar{
+    width: 0.4rem;
+    background: #2D1950;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 4rem;
+    background-color: #CE5FF8;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5rem;
+    background-color:transparent;
+    font-size: 1.5rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100; 
+}
+header >div{
+    margin: 0 0 0 100px;
+    color: #CE5FF8;
+    font-weight: 600;
+    height: 25px;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(10px);
+        transition: 0.3s all;
+    }
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 450px;
+    height: 25px;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 40px;
+    color: white; 
+    font-weight: 500;
+    &:hover{
+        border-bottom: 4px solid #CE5FF8;
+        border-bottom-right-radius: 4%;
+        border-bottom-left-radius: 4%;
+        margin-bottom: -10px;
+        cursor: pointer;
+        transition:ease-in-out 0.3s;
+    }
+
+}
+nav div p{
+    margin-top: 0px;
+}
+#blur{
+    width: 100%;
+    height: 5rem;
+    background-color:#191728;
+    filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+@media (max-width:1000px) {
+    nav{
+        margin: 0 0 0 20px;
+    }
+}
+@media (max-width:670px) {
+    nav{
+        display: none;
+    }
+}
